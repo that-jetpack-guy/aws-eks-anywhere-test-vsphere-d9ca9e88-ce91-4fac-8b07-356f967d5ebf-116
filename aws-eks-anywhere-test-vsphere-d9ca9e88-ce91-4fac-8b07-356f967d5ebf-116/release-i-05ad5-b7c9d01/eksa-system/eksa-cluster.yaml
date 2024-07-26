@@ -27,7 +27,7 @@ spec:
   datacenterRef:
     kind: VSphereDatacenterConfig
     name: release-i-05ad5-b7c9d01
-  eksaVersion: v0.20.2-dev+build.7
+  eksaVersion: v0.20.2-dev+build.8
   externalEtcdConfiguration:
     count: 1
     machineGroupRef:
@@ -44,7 +44,7 @@ spec:
   managementCluster:
     name: release-i-05ad5-b7c9d01
   workerNodeGroupConfigurations:
-  - count: 1
+  - count: 3
     machineGroupRef:
       kind: VSphereMachineConfig
       name: release-i-05ad5-b7c9d01
